@@ -1,1 +1,10 @@
-<app-page></app-page>
+<!-- <app-page></app-page> -->
+<router-outlet></router-outlet>
+
+<mat-toolbar color="primary">
+  <h1><span class="light">Super</span>Logo</h1>
+  <span class="spacer"></span>
+  <a mat-button [routerLink]="['home']" routerLinkActive="active">Home</a>
+  <a mat-button [routerLink]="['about']" routerLinkActive="active">About</a>
+  <a mat-button [routerLink]="['contact']" routerLinkActive="active">Contact</a>
+</mat-toolbar>
