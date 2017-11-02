@@ -39,5 +39,4 @@ export class FullpageDirective {
       this.element.nativeElement.height = heightdiff;
     }
   }
-
 }
